@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sikkim vs Delhi Comic Strip</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #f0f8ff;
+      margin: 20px;
+    }
+    .comic-strip {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .panel {
+      background-color: #ffffff;
+      border: 3px solid #333;
+      border-radius: 15px;
+      padding: 15px;
+      position: relative;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    }
+    .speech {
+      background-color: #fef3bd;
+      padding: 10px;
+      border-radius: 10px;
+      position: relative;
+      margin-top: 10px;
+    }
+    .speech::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #fef3bd;
+    }
+    .character {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h3>Sikkim vs Delhi: A Colorful Conversation!</h3>
+  <div class="comic-strip">
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Buddha_Park_Ravangla_Sikkim_India.jpg/800px-Buddha_Park_Ravangla_Sikkim_India.jpg" alt="Sikkim" class="character">
+      <div class="speech">
+        Hi! I'm from Sikkim. You must visit our beautiful hills, Gurudongmar Lake, and the Buddha Park!
+      </div>
+    </div>
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/India_Gate_in_New_Delhi_03-2016_img3.jpg/800px-India_Gate_in_New_Delhi_03-2016_img3.jpg" alt="Delhi" class="character">
+      <div class="speech">
+        Wow! In Delhi, we have monuments like India Gate and Red Fort. A perfect blend of history and modern life!
+      </div>
+    </div>
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Momos_-_Indian_Street_Food.jpg/800px-Momos_-_Indian_Street_Food.jpg" alt="Momos" class="character">
+      <div class="speech">
+        Our food is mostly rice, momos, and thukpa. Spicy and warm, perfect for the weather!
+      </div>
+    </div>
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Chole_Bhature_from_India.jpg/800px-Chole_Bhature_from_India.jpg" alt="Chole Bhature" class="character">
+      <div class="speech">
+        Delhi food is a treat! Chole Bhature, butter chicken, and street chaat are everyone’s favorite.
+      </div>
+    </div>
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Cham_dance_at_Hemis_Monastery.jpg/800px-Cham_dance_at_Hemis_Monastery.jpg" alt="Sikkim Culture" class="character">
+      <div class="speech">
+        Our culture is rich with Buddhist festivals and Cham dances. Music is mostly traditional instruments.
+      </div>
+    </div>
+    <div class="panel">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dance_performance_at_Commonwealth_Games_Opening_Ceremony_2010.jpg/800px-Dance_performance_at_Commonwealth_Games_Opening_Ceremony_2010.jpg" alt="Delhi Culture" class="character">
+      <div class="speech">
+        Delhi is a cultural hub — from Punjabi beats to Bollywood, there's always something happening!
+      </div>
+    </div>
+  </div>
+</body>
+</html>
